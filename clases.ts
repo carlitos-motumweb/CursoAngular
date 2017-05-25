@@ -17,6 +17,7 @@ class Persona{
     }
 }
 
+
 let per1 = new Persona();
 let per2 = new Persona('carlos');
 let per3 = new Persona('carlos','flores');
