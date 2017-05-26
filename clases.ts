@@ -1,4 +1,4 @@
-class Persona{
+class PersonaClass{
     nombre:string;
     apellidos:string;
 
@@ -17,8 +17,7 @@ class Persona{
     }
 }
 
-
-let per1 = new Persona();
-let per2 = new Persona('carlos');
-let per3 = new Persona('carlos','flores');
-console.log(per3.getSaludo());
+let perClass1 = new PersonaClass();
+let perClass2 = new PersonaClass('carlos');
+let perClass3 = new PersonaClass('carlos','flores');
+console.log(perClass3.getSaludo());

@@ -17,6 +17,12 @@ class Persona{
     }
 }
 
+let miMapa : [string, number];
+miMapa=["carlos",39];
+console.log("miMapa[1]: ", miMapa[1]);
+
+
+
 var per1 = new Persona();
 console.log(per1);
 let per2 = new Persona();
